@@ -1,7 +1,7 @@
-var numero_span = document.getElementById("numero");
-var adicionar = document.getElementsByName("adicionar");
-var subtrair = document.getElementsByName("subtrair");
-var numero = 0;
+const numero_span = document.getElementById("numero");
+const adicionar = document.getElementsByName("adicionar");
+const subtrair = document.getElementsByName("subtrair");
+let numero = 0;
 
 function increment() {
 
